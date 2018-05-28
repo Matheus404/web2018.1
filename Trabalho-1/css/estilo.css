@@ -92,9 +92,16 @@ footer {
 }
 .social li {
     float: left;
-    margin-left: 25px;
+    margin-left: 15px;
+    margin-right: 20px;
 }
 footer figcaption {
     font-size: 14px;
     color: #fcdcdc;
+}
+footer ul {
+    list-style-type: none;
+}
+.logo {
+    margin-left: 20px;
 }
