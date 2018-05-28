@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/estilo.css">
         <link rel="stylesheet" href="css/cadastro.css">
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
     </head>
     <body>
         <div class="container">
@@ -116,5 +118,10 @@
             </div>
             <!-- fim do rodapé -->
         </div>
+        <script>
+          $(document).ready(function(){
+            $('.telefone').mask('(00) 0000-0000');  
+        });
+        </script>
     </body>
 </html>
